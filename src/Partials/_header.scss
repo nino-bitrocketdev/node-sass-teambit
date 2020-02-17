@@ -26,6 +26,10 @@
       a:hover {
         color: blue;
       }
+      &:last-child a:hover {
+        color: white;
+        background-color:  #30488f;
+      }
     }
   }
 }
