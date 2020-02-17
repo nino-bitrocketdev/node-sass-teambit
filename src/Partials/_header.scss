@@ -35,7 +35,6 @@
 .jumbo {
   width: $width;
   margin: auto;
-  height: 500px;
   @include flex;
   color:$colorTest;
 }
@@ -77,6 +76,11 @@ display: none;
 @media screen and (max-width: 760px) {
   .display-block {
     display: block;
+  }
+  .jumbo-testo {
+    a{
+      width: 100%;
+    }
   }
 }
 @media screen and (max-width: 1100px) {

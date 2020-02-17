@@ -54,7 +54,7 @@ h2 {
   a{
     color: blue;
     display: block;
-    margin-bottom: 80px;
+    margin-bottom: 90px;
   }
   img {
     width: 70%;
@@ -63,6 +63,11 @@ h2 {
 }
 @media screen and (max-width: 760px) {
   .wrap-img-testo {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .wrap-img-testo{
     width: 100%;
   }
 }
