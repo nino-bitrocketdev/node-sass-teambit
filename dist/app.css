@@ -163,7 +163,7 @@ main {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  width: 100;
+  width: 100%;
   margin: auto;
   justify-content: space-between;
 }
@@ -181,5 +181,11 @@ main {
   text-align: center;
   margin: auto;
   padding: 20px;
+}
+
+@media screen and (max-width: 760px) {
+  .wrap-img-testo {
+    width: 100%;
+  }
 }
 
