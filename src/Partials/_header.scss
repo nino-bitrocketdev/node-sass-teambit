@@ -67,3 +67,13 @@
     height: 100%;
   }
 }
+.fa-bars {
+float: right;
+margin-top: 27px;
+display: none;
+}
+@media screen and (max-width: 760px) {
+  .display-block {
+    display: block;
+  }
+}
