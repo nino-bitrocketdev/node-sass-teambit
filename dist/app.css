@@ -58,15 +58,24 @@ body {
 .jumbo {
   width: 80%;
   margin: auto;
-  background-color: red;
   height: 500px;
   display: flex;
   align-items: center;
+  color: #58402C;
 }
 
 .jumbo-testo {
   width: 50%;
   height: 80%;
+}
+
+.jumbo-testo h1 {
+  padding: 50px 20px;
+}
+
+.jumbo-testo p {
+  width: 80%;
+  padding: 0 20px;
 }
 
 .jumbo-img {

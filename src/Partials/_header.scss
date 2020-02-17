@@ -32,12 +32,19 @@
 .jumbo {
   width: $width;
   margin: auto;
-  background-color: red;
   height: 500px;
   @include flex;
+  color:$colorTest;
 }
 .jumbo-testo {
   @include blocco;
+  h1 {
+    padding:50px 20px;
+  }
+  p {
+    width: $width;
+    padding:0 20px;
+  }
 }
 .jumbo-img {
   @include blocco;
