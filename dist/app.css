@@ -183,6 +183,16 @@ main {
   padding: 20px;
 }
 
+.wrap-coniglio {
+  width: 30%;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.wrap-coniglio img {
+  width: 100%;
+}
+
 @media screen and (max-width: 760px) {
   .wrap-img-testo {
     width: 100%;

@@ -23,6 +23,14 @@
     @include pMain;
   }
 }
+.wrap-coniglio {
+  width: 30%;
+  margin: auto;
+  margin-top: 50px;
+  img {
+    width: 100%;
+  }
+}
 @media screen and (max-width: 760px) {
   .wrap-img-testo {
     width: 100%;
