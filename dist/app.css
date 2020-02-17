@@ -11,6 +11,10 @@ body {
   height: 100vh;
 }
 
+a {
+  text-decoration: none;
+}
+
 .wrap-menu {
   height: 80px;
   width: 80%;
@@ -64,11 +68,6 @@ body {
   color: #58402C;
 }
 
-.jumbo img {
-  width: 100%;
-  height: 100%;
-}
-
 .jumbo-testo {
   width: 50%;
   height: 80%;
@@ -81,11 +80,32 @@ body {
 .jumbo-testo p {
   width: 80%;
   padding: 0 20px;
+  margin-bottom: 30px;
+}
+
+.jumbo-testo img {
+  width: 20px;
+  padding: 0 3px;
+}
+
+.jumbo-testo a {
+  background-color: #30488f;
+  margin: 0 20px;
+  color: white;
+}
+
+.jumbo-testo a:hover {
+  background-color: #233569;
 }
 
 .jumbo-img {
   width: 50%;
   height: 80%;
   background-color: blue;
+}
+
+.jumbo-img img {
+  width: 100%;
+  height: 100%;
 }
 
