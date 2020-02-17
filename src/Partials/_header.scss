@@ -42,7 +42,6 @@
     padding:50px 20px;
   }
   p {
-    width: $width;
     padding:0 20px;
     margin-bottom: 30px;
   }
@@ -75,5 +74,11 @@ display: none;
 @media screen and (max-width: 760px) {
   .display-block {
     display: block;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .widthTotale {
+    width: 100%;
+    text-align: center;
   }
 }
