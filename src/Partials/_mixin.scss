@@ -22,3 +22,12 @@
   flex-wrap: wrap;
   align-items: center;
 }
+@mixin pMain {
+  text-align: center;
+  margin: auto;
+  padding: 20px;
+}
+@mixin imgMain {
+  height: 200px;
+  padding:30px;
+}

@@ -1,1 +1,25 @@
-
+.prima-sezione {
+  width: $widthMain;
+  margin: auto;
+  h2 {
+    width: $widthMain;
+    margin: auto;
+    text-align: center;
+    padding-top:  80px;
+  }
+}
+.wrap-img {
+  @include flex;
+  width: 100;
+  margin: auto;
+  justify-content: space-between;
+}
+.wrap-img-testo {
+  width: 25%;
+  img {
+    @include imgMain;
+  }
+  p {
+    @include pMain;
+  }
+}
