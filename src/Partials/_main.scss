@@ -45,6 +45,21 @@ h2 {
 }
 .wrap-sezione-bianca {
   width: 30%;
+  h3{
+    padding-bottom: 20px;
+  }
+  p{
+    padding-bottom: 20px;
+  }
+  a{
+    color: blue;
+    display: block;
+    margin-bottom: 80px;
+  }
+  img {
+    width: 70%;
+    margin-left:  15%;
+  }
 }
 @media screen and (max-width: 760px) {
   .wrap-img-testo {

@@ -218,6 +218,25 @@ h2 {
   width: 30%;
 }
 
+.wrap-sezione-bianca h3 {
+  padding-bottom: 20px;
+}
+
+.wrap-sezione-bianca p {
+  padding-bottom: 20px;
+}
+
+.wrap-sezione-bianca a {
+  color: blue;
+  display: block;
+  margin-bottom: 80px;
+}
+
+.wrap-sezione-bianca img {
+  width: 70%;
+  margin-left: 15%;
+}
+
 @media screen and (max-width: 760px) {
   .wrap-img-testo {
     width: 100%;
