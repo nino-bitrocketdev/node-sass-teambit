@@ -150,13 +150,14 @@ main {
 .prima-sezione {
   width: 60%;
   margin: auto;
+  border-bottom: 1px solid #58402C;
 }
 
-.prima-sezione h2 {
+h2 {
   width: 60%;
   margin: auto;
   text-align: center;
-  padding-top: 80px;
+  padding: 50px 0;
 }
 
 .wrap-img {
@@ -187,10 +188,18 @@ main {
   width: 30%;
   margin: auto;
   margin-top: 50px;
+  margin-bottom: 30px;
 }
 
 .wrap-coniglio img {
   width: 100%;
+}
+
+.seconda-sezione {
+  width: 60%;
+  margin: auto;
+  border-bottom: 1px solid #58402C;
+  border-bottom: 0px;
 }
 
 @media screen and (max-width: 760px) {

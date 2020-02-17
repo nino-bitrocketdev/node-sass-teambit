@@ -1,12 +1,9 @@
 .prima-sezione {
-  width: $widthMain;
-  margin: auto;
-  h2 {
-    width: $widthMain;
-    margin: auto;
-    text-align: center;
-    padding-top:  80px;
-  }
+  @include sezioneMain;
+
+}
+h2 {
+  @include h2Main;
 }
 .wrap-img {
   @include flex;
@@ -27,9 +24,14 @@
   width: 30%;
   margin: auto;
   margin-top: 50px;
+  margin-bottom: 30px;
   img {
     width: 100%;
   }
+}
+.seconda-sezione {
+  @include sezioneMain;
+  border-bottom: 0px;
 }
 @media screen and (max-width: 760px) {
   .wrap-img-testo {

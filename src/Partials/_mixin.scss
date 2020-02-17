@@ -31,3 +31,14 @@
   height: 200px;
   padding:30px;
 }
+@mixin sezioneMain {
+  width: $widthMain;
+  margin: auto;
+  border-bottom: 1px solid $colorTest;
+}
+@mixin h2Main {
+  width: $widthMain;
+  margin: auto;
+  text-align: center;
+  padding: 50px 0;
+}
