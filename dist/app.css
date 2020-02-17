@@ -171,6 +171,7 @@ h2 {
 
 .wrap-img-testo {
   width: 25%;
+  text-align: center;
 }
 
 .wrap-img-testo img {
@@ -200,6 +201,21 @@ h2 {
   margin: auto;
   border-bottom: 1px solid #58402C;
   border-bottom: 0px;
+}
+
+.terza-sezione {
+  padding-top: 50px;
+  display: flex;
+  width: 100%;
+  background-color: white;
+}
+
+.terza-sezione img {
+  width: 50%;
+}
+
+.wrap-sezione-bianca {
+  width: 30%;
 }
 
 @media screen and (max-width: 760px) {
