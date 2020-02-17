@@ -36,8 +36,7 @@ h2 {
 }
 .terza-sezione {
   padding-top: 50px;
-  display: flex;
-  width: 100%;
+  @include flex;
   background-color:white;
   img {
     width: 50%;
@@ -64,6 +63,19 @@ h2 {
 @media screen and (max-width: 760px) {
   .wrap-img-testo {
     width: 100%;
+  }
+
+  .terza-sezione {
+    img{
+      width: 100%;
+      padding: 30px;
+    }
+  }
+  .wrap-sezione-bianca{
+    width: 100%;
+    img {
+      width: 70%;
+    }
   }
 }
 @media screen and (max-width: 1100px) {
