@@ -35,6 +35,10 @@
   height: 500px;
   @include flex;
   color:$colorTest;
+  img {
+    width: 100%;
+    height: 100%;
+  }
 }
 .jumbo-testo {
   @include blocco;

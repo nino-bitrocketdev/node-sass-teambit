@@ -64,6 +64,11 @@ body {
   color: #58402C;
 }
 
+.jumbo img {
+  width: 100%;
+  height: 100%;
+}
+
 .jumbo-testo {
   width: 50%;
   height: 80%;
