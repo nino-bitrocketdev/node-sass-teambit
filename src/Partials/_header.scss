@@ -1,0 +1,45 @@
+.wrap-menu {
+  height: $heigthHeader;
+  width: $width;
+  margin: auto;
+  line-height: $heigthHeader;
+  vertical-align: middle;
+  @include clearFix;
+  border-bottom: 1px solid $colorTest;
+  h3 {
+    @include floatElement;
+    color: $colorTest;
+  }
+  ul {
+    float: right;
+    li {
+      display: inline-block;
+      padding: 0 5px;
+      a {
+        text-decoration: none;
+        color:$colorTest;
+        img {
+          width: 18px;
+          padding: 0 3px;
+        }
+      }
+    }
+  }
+}
+.btn {
+  @include button;
+}
+.jumbo {
+  width: $width;
+  margin: auto;
+  background-color: red;
+  height: 500px;
+  @include flex;
+}
+.jumbo-testo {
+  @include blocco;
+}
+.jumbo-img {
+  @include blocco;
+  background-color: blue;
+}

@@ -1,0 +1,23 @@
+@mixin floatElement {
+  float: left;
+}
+@mixin clearFix {
+  display: table;
+  content: "";
+  clear: both;
+}
+@mixin button {
+  border: 1px solid blue;
+  border-radius: 10px;
+  padding: 5px;
+  height: 20px;
+  width: 60px;
+}
+@mixin blocco {
+  width: 50%;
+  height: 80%;
+}
+@mixin flex {
+  display: flex;
+  align-items: center;
+}
