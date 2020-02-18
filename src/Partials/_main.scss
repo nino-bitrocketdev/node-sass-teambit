@@ -93,6 +93,11 @@ h2 {
     font-size: 16px;
   }
 }
+.btn {
+  img {
+    width: 18px;
+  }
+}
 .found {
   @include flex;
   img {
@@ -102,6 +107,13 @@ h2 {
   .found-testo {
     padding-top: 10px;
     padding-left: 10px;
+  }
+}
+.wrap-button {
+  width: 50%;
+  margin: auto;
+  a {
+    background-color: #30488f;
   }
 }
 @media screen and (max-width: 760px) {
