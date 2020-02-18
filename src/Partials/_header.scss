@@ -1,4 +1,7 @@
 .wrap-menu {
+  position: fixed;
+  top: 0;
+  left: 10%;
   height: $heigthHeader;
   width: $width;
   margin: auto;
@@ -39,6 +42,7 @@
 .jumbo {
   width: $width;
   margin: auto;
+  padding-top: $heigthHeader;
   @include flex;
   color:$colorTest;
 }
