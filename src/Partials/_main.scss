@@ -93,7 +93,17 @@ h2 {
     font-size: 16px;
   }
 }
-
+.found {
+  @include flex;
+  img {
+    width: 50px;
+    padding: 5px;
+  }
+  .found-testo {
+    padding-top: 10px;
+    padding-left: 10px;
+  }
+}
 @media screen and (max-width: 760px) {
   .wrap-img-testo {
     width: 100%;

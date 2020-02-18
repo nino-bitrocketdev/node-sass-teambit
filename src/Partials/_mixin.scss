@@ -20,7 +20,6 @@
 @mixin flex {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
 }
 @mixin pMain {
   text-align: center;

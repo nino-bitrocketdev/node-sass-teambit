@@ -93,7 +93,6 @@ main {
   padding-bottom: 80px;
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
   color: #58402C;
 }
 
@@ -176,7 +175,6 @@ h2 {
 .wrap-img {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
   width: 100%;
   margin: auto;
   justify-content: space-between;
@@ -226,7 +224,6 @@ h2 {
   padding: 60px;
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
   background-color: white;
 }
 
@@ -289,6 +286,21 @@ h2 {
 .testo-ultima-sezione p {
   margin-bottom: 25px;
   font-size: 16px;
+}
+
+.found {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.found img {
+  width: 50px;
+  padding: 5px;
+}
+
+.found .found-testo {
+  padding-top: 10px;
+  padding-left: 10px;
 }
 
 @media screen and (max-width: 760px) {
