@@ -30,6 +30,10 @@ main {
   color: #58402C;
 }
 
+ul {
+  list-style: none;
+}
+
 .logo {
   float: left;
   line-height: 80px;
@@ -223,6 +227,7 @@ h2 {
   margin: auto;
   border-bottom: 1px solid #58402C;
   border-bottom: 0px;
+  padding-bottom: 50px;
 }
 
 .seconda-sezione h2,
@@ -353,6 +358,59 @@ h2 {
 
   .wrap-sezione-bianca img {
     width: 70%;
+  }
+}
+
+footer {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  color: #58402C;
+}
+
+.footer-left {
+  padding: 30px;
+  display: flex;
+  width: 30%;
+}
+
+.footer-left img {
+  padding-right: 20px;
+}
+
+.footer-right {
+  display: flex;
+  flex-wrap: wrap;
+  width: 70%;
+  justify-content: space-between;
+}
+
+.footer-right li {
+  font-size: 20px;
+  padding: 5px 0;
+}
+
+.footer-right a {
+  color: #58402C;
+}
+
+.footer-right a:hover {
+  color: blue;
+}
+
+.footer-right h4 {
+  padding-top: 30px;
+}
+
+@media screen and (max-width: 760px) {
+  .footer-left {
+    width: 100%;
+  }
+
+  .footer-right ul {
+    width: 100%;
+    text-align: center;
   }
 }
 

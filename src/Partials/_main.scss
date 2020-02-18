@@ -33,6 +33,7 @@ h2 {
 .seconda-sezione,.ultima-sezione{
   @include sezioneMain;
   border-bottom: 0px;
+  padding-bottom: 50px;
   h2{
     width: 50%;
   }
