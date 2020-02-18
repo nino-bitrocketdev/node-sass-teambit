@@ -43,6 +43,7 @@
   width: $width;
   margin: auto;
   padding-top: $heigthHeader;
+  padding-bottom: 80px;
   @include flex;
   color:$colorTest;
 }

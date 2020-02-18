@@ -30,9 +30,12 @@ h2 {
     width: 100%;
   }
 }
-.seconda-sezione {
+.seconda-sezione,.ultima-sezione{
   @include sezioneMain;
   border-bottom: 0px;
+  h2{
+    width: 50%;
+  }
 }
 .terza-sezione {
   padding: 60px;
@@ -63,6 +66,34 @@ h2 {
 .right {
   flex-direction: row-reverse;
 }
+.testo-ultima-sezione {
+  position: relative;
+  max-width: 628px;
+  margin: 35px auto;
+  padding: 20px 20px 20px 40px;
+  border: 1px solid #bdb5af;
+  border-radius: 7px;
+  background: #fff;
+  box-sizing: border-box;
+  font-size: .875rem;
+  line-height: 1.5;
+  &:after {
+    content: "";
+    display: block;
+    width: 37px;
+    height: 39px;
+    position: absolute;
+    top: -23px;
+    left: -1px;
+    background: url(https://teambit.io/wp-content/themes/teambeat/img/landing/quote.svg) center center no-repeat;
+    z-index: 1;
+  }
+  p{
+    margin-bottom: 25px;
+    font-size: 16px;
+  }
+}
+
 @media screen and (max-width: 760px) {
   .wrap-img-testo {
     width: 100%;
